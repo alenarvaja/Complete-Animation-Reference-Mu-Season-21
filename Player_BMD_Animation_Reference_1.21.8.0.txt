@@ -1,0 +1,508 @@
+============================================================
+MU Online - Player.bmd Animation Reference
+============================================================
+Client version : 1.21.8.0 (Season 21-era)
+File           : Player.bmd
+Action count   : 410
+Index range    : 0-409 (inclusive)
+Project        : LeMUria
+
+This community reference was compiled by manually viewing the
+animations in Player.bmd. Descriptions are observational, not
+official Webzen action names. Class and skill associations are
+not independently verified. (?) indicates additional uncertainty.
+Similar-looking animations may serve different purposes in-game.
+Indices 290-299 were abbreviated or omitted in the original notes;
+333-334 were also abbreviated. These entries remain explicitly
+marked rather than being assigned unverified individual motions.
+Corrections and additional identifications are welcome.
+
+// ==========================================================
+// STANDING AND IDLE ANIMATIONS (0-37)
+// ==========================================================
+
+  0 = Unknown pose
+  1 = Male idle (?)
+  2 = Female idle (?)
+  3 = Alternative female idle (?)
+  4 = Alternative male idle (?)
+  5 = Idle variant 5
+  6 = Idle variant 6
+  7 = Unusual idle stance
+  8 = Idle variant 8
+  9 = NPC-style idle with sword swing
+ 10 = Idle variant 10
+ 11 = Combat idle - one-handed weapon (?)
+ 12 = Combat idle - two-handed weapon
+ 13 = Combat idle - two-handed polearm
+ 14 = Combat idle - alternative two-handed polearm (?)
+ 15 = Combat idle - two-handed staff or bow (?)
+ 16 = Combat idle - crossbow (?)
+ 17 = Combat idle - distinctive stance
+ 18 = Combat idle - unarmed (?)
+ 19 = Flying idle
+ 20 = Flying stance - forward-facing / bow (?)
+ 21 = Flying stance - crossbow
+ 22 = Flying idle (?)
+ 23 = Flying idle variant 2
+ 24 = Flying idle variant 3
+ 25 = Flying idle variant 4
+ 26 = Flying idle variant 5
+ 27 = Flying idle - alternative variant 5
+ 28 = Combat idle - two-handed weapon, Magic Gladiator (?)
+ 29 = Unusual idle variant
+ 30 = Unusual idle variant
+ 31 = NPC idle (?)
+ 32 = NPC idle variant (?)
+ 33 = Idle - holding an object
+ 34 = Idle - holding an object, variant 2 (?)
+ 35 = Idle - holding an object, variant 3 (?)
+ 36 = Idle - holding an object, alternative variant 3 (?)
+ 37 = Idle variant (original label: idle 17)
+
+// ==========================================================
+// MOUNTED IDLE AND RIDING STANCES (38-49)
+// ==========================================================
+
+ 38 = Mounted stance
+ 39 = Mounted stance variant 2
+ 40 = Mounted stance variant 3
+ 41 = Mounted stance variant 4
+ 42 = Unusual mounted stance (?)
+ 43 = Unusual mounted stance, alternative variant (?)
+ 44 = Mounted stance - two-handed weapon (?)
+ 45 = Mounted stance variant (?)
+ 46 = Mounted stance variant
+ 47 = Unusual mounted stance (?)
+ 48 = Unidentified animation - possibly mounted
+ 49 = Mounted idle (?)
+
+// ==========================================================
+// WALKING AND SWIMMING (50-70)
+// ==========================================================
+
+ 50 = Walking
+ 51 = Walking - female (?)
+ 52 = Combat walk
+ 53 = Combat walk - two-handed weapon or bow (?)
+ 54 = Walking - crossbow (?)
+ 55 = Walking - staff / polearm
+ 56 = Walking - bow (?)
+ 57 = Walking - alternative crossbow variant (?)
+ 58 = Distinctive walking animation
+ 59 = Relaxed walk
+ 60 = Walking with one arm held close to the body (?)
+ 61 = Swimming
+ 62 = Walking with large sword - Magic Gladiator (?)
+ 63 = Unusual walking animation
+ 64 = Casual walk
+ 65 = Walking - Alchemist (?)
+ 66 = Walking - Alchemist, variant 2 (?)
+ 67 = Walking - Alchemist, right-handed variant (?)
+ 68 = Walking - Alchemist, variant 4 (?)
+ 69 = Walking - Alchemist, variant 5 (?)
+ 70 = Unusual walking animation, variant 2
+
+// ==========================================================
+// MOUNTED MOVEMENT (71-78)
+// ==========================================================
+
+ 71 = Mounted movement (?)
+ 72 = Mounted movement - one-handed
+ 73 = Mounted movement variant
+ 74 = Alternative mounted movement
+ 75 = Mounted movement with wider leg stance
+ 76 = Mounted movement - holding a crossbow (?)
+ 77 = Mounted movement - unidentified variant
+ 78 = Unusual mounted movement
+
+// ==========================================================
+// RUNNING, SWIMMING AND FLYING (79-102)
+// ==========================================================
+
+ 79 = Running - unarmed
+ 80 = Running - one-handed weapon
+ 81 = Running - both hands
+ 82 = Running - two-handed weapon
+ 83 = Running - polearm / staff (?)
+ 84 = Running - bow (?)
+ 85 = Running - crossbow
+ 86 = Slow running animation
+ 87 = Running - Grow Lancer (?)
+ 88 = Fast swimming
+ 89 = Flying movement
+ 90 = Flying movement - crossbow (?)
+ 91 = Flying movement variant 2
+ 92 = Flying movement - Alchemist or Summoner (?)
+ 93 = Flying movement - Alchemist or Summoner, alternative variant (?)
+ 94 = Flying movement - holding an unidentified object
+ 95 = Flying movement - holding an unidentified object, variant 2
+ 96 = Running with large sword - Magic Gladiator
+ 97 = Unusual running animation - Rage Fighter (?)
+ 98 = Running - one-handed weapon (?)
+ 99 = Running - no equipped weapon
+100 = Running - holding an object in the right hand
+101 = Running - Alchemist or Summoner (?)
+102 = Running - Alchemist or Summoner, alternative variant (?)
+
+// ==========================================================
+// ADDITIONAL MOUNTED MOVEMENT (103-110)
+// ==========================================================
+
+103 = Mounted movement variant 1
+104 = Mounted movement variant 2
+105 = Mounted movement variant 3
+106 = Mounted movement variant 4
+107 = Mounted movement variant 5
+108 = Mounted movement variant 6
+109 = Mounted movement variant 7
+110 = Unusual mounted movement
+
+// ==========================================================
+// BASIC ATTACKS (111-136)
+// ==========================================================
+
+111 = Unarmed attack - low strike
+112 = Unarmed attack
+113 = One-handed swing
+114 = One-handed swing, alternative variant
+115 = One-handed left swing
+116 = One-handed upward left swing
+117 = Two-handed swing
+118 = Two-handed swing variant 2
+119 = Two-handed swing variant 3
+120 = Two-handed attack - Magic Gladiator (?)
+121 = Lunge / thrust attack
+122 = One-handed thrust attack
+123 = Staff / polearm attack
+124 = Unidentified attack
+125 = Unusual two-handed attack
+126 = Bow attack
+127 = Crossbow attack
+128 = Flying bow attack
+129 = Flying crossbow attack
+130 = Unusual attack animation
+131 = One-handed shooting (?)
+132 = One-handed shooting, variant 2 (?)
+133 = Flying shooting animation
+134 = Flying shooting animation, variant 2
+135 = Unarmed attack - holding stance
+136 = One-handed attack - holding stance
+
+// ==========================================================
+// COMBAT SKILLS AND SPECIAL ACTIONS (137-275)
+// ==========================================================
+
+137 = Falling Slash
+138 = Lunge / Death Stab (?)
+139 = Uppercut
+140 = Cyclone-like attack (?)
+141 = Uppercut-like attack
+142 = Twisting slash
+143 = Rageful Blow
+144 = Swing attack - unidentified
+145 = Swing attack - unidentified variant
+146 = Upward gesture - Elf buff (?)
+147 = Elf CS skill - bow (?)
+148 = Elf CS skill - crossbow (?)
+149 = Elf CS skill - flying bow (?)
+150 = Elf CS skill - flying crossbow (?)
+151 = Double swing
+152 = Upward throwing swing (?)
+153 = Forward pointing gesture
+154 = Life Swelling buff - Blade Knight
+155 = Celebratory gesture
+156 = Life Swelling-like buff - Blade Knight (?)
+157 = Mounted action
+158 = Thrust / Death Stab-like action - Grow Lancer (?)
+159 = Raised-hand gesture
+160 = Raise hand and touch ground
+161 = Spellcasting gesture - Dark Wizard
+162 = Overhead spellcasting gesture - Dark Wizard
+163 = Weak swing motion
+164 = Unusual hand gesture - Summoner skill (?)
+165 = Evil Spirit-like casting - Summoner (?)
+166 = Jump with upward gesture
+167 = Aqua Beam (?)
+168 = Inferno
+169 = Hellfire - jumping animation
+170 = Unusual hand gesture
+171 = Unusual two-handed gesture
+172 = Spinning jump (?)
+173 = Evil Spirit or Elf buff (?)
+174 = Forceful swing (?)
+175 = Horizontal swing
+176 = Two-handed swing
+177 = Roar-like gesture
+178 = Falling Slash variant (?)
+179 = Unusual falling attack
+180 = Apparently malformed animation in viewer
+181 = Two-handed upward motion
+182 = Weapon raise - Obsidian (?)
+183 = Midair spinning attack
+184 = Jump (?)
+185 = Spin and thrust / lunge - Grow Lancer (?)
+186 = Forward thrust / Spin Step - Grow Lancer (?)
+187 = Shielding / defensive action (?)
+188 = Multiple thrusts - Magic Pin (?)
+189 = Thrust and stop - Shining Peak (?)
+190 = Breche (?)
+191 = Wrath (?)
+192 = Rageful Blow-like attack (?)
+193 = Thrust followed by a pause
+194 = Jump into airborne stance
+195 = Forward thrust pose
+196 = Martial arts-like movement
+197 = Mounted martial arts-like movement
+198 = Weapon raise
+199 = Plant an object into the ground
+200 = Flying buff animation
+201 = Flying hand gesture
+202 = Flying horizontal swing
+203 = Scream / roar
+204 = Forward movement with possible thrust
+205 = Unusual forward flying pose
+206 = Two punches - Rage Fighter
+207 = Leftward hand swipe - unidentified
+208 = Rightward hand swipe - unidentified
+209 = Spellcasting / Evil Spirit / Energy Ball - Dark Wizard / Soul Master (?)
+210 = Raise right hand - unidentified
+211 = Defensive skill
+212 = Forward pointing / advance signal emote
+213 = Circular hand gesture - possible emote (?)
+214 = Four consecutive punches
+215 = Two forward punches - Rage Fighter (?)
+216 = Jump kick and punch - Rage Fighter (?)
+217 = Right-hand ground smash - Rage Fighter (?)
+218 = Stationary combat stance - zero frames observed
+219 = Jumping flip kick - Rage Fighter (?)
+220 = Jump and landing
+221 = Forward reach with both arms in gripping pose - fighting-style movement (?)
+222 = Forward scream (?)
+223 = Roar
+224 = Leftward left-hand swipe - humanoid monster animation (?)
+225 = Quick crouching right-hand swipe - humanoid monster animation (?)
+226 = Quick crouching two-handed swipe from front toward back - humanoid monster animation (?)
+227 = Roar variant
+228 = Overhead arm movement forward - throwing motion (?)
+229 = Left-hand slash
+230 = Right-hand slash
+231 = Forward two-handed spellcasting
+232 = Roar-like buff
+233 = Roar-like buff variant 2
+234 = Two-handed handgun shooting - Gun Crusher
+235 = Dual-handgun shooting - Gun Crusher
+236 = Gentle one-handed shooting - Gun Crusher (?)
+237 = Slow dual-handgun shooting - Gun Crusher
+238 = Crossed-hand shooting - Gun Crusher
+239 = Inferno-like motion
+240 = Quick two-handed shooting - Gun Crusher
+241 = Quick two-handed shooting - Gun Crusher, alternative variant
+242 = Single-hand handgun shooting - Gun Crusher
+243 = Roar-like buff variant
+244 = Forward step and roar
+245 = Crossed-arm forward spellcasting
+246 = Two-handed sideways ground smash
+247 = Buff with right hand raised overhead - Grow Lancer (?)
+248 = Rightward right-hand swipe
+249 = Right-hand downward slash
+250 = Right hand raised overhead from the front - Alchemist buff (?)
+251 = Right-hand ground slam while holding an object in the left hand - Alchemist (?)
+252 = Slow right-hand forward motion while holding an object in the left hand - Alchemist spellcasting (?)
+253 = Slow left-hand forward motion while holding an object in the left hand - Alchemist spellcasting (?)
+254 = Slow left-hand swipe while holding an object in the left hand - Alchemist spellcasting (?)
+255 = Forward two-handed spellcasting - similar to other variants
+256 = Forward right-hand motion while holding an object in the left hand - Alchemist (?)
+257 = Forward two-handed spellcasting - similar to other variants
+258 = Quick roar-like buff
+259 = Upward bow-and-arrow-like motion (?)
+260 = Spellcasting followed by abrupt flying motion - possible viewer anomaly
+261 = Same spellcasting motion as 260, without flying transition
+262 = Forward roar-like buff
+263 = Double hand swipe - right, then left
+264 = Upward left-hand buff-like motion
+265 = Flying version of buff-like motion 264
+266 = Forward two-handed spellcasting
+267 = Forward two-handed spellcasting - visually identical to 266
+268 = Exaggerated upward roar-like buff with body and hand movement
+269 = Circular two-handed overhead ground smash
+270 = Forward two-handed spellcasting
+271 = Exaggerated upward roar-like buff with body and hand movement
+272 = Forward two-handed spellcasting
+273 = Rageful Blow-like attack
+274 = Looping spinning attack - Crusader (?)
+275 = Left-hand upward movement followed by right-hand backward swipe
+
+// ==========================================================
+// RANGED ATTACK VARIANTS (PARTIALLY DOCUMENTED) (276-299)
+// ==========================================================
+
+276 = Bow draw
+277 = Flying bow draw
+278 = Crossbow shooting
+279 = Flying crossbow shooting
+280 = Bow draw, variant 2 (?)
+281 = Flying bow draw, variant 2 (?)
+282 = Crossbow shooting, variant 2 (?)
+283 = Flying crossbow shooting, variant 2 (?)
+284 = Bow draw, variant 3 (?)
+285 = Flying bow draw, variant 3 (?)
+286 = Crossbow shooting, variant 3
+287 = Flying crossbow shooting, variant 3
+288 = Bow draw, additional variant
+289 = Flying bow draw, additional variant
+290 = Repeated ranged animation - abbreviated in original notes
+291 = Not individually documented
+292 = Not individually documented
+293 = Not individually documented
+294 = Not individually documented
+295 = Not individually documented
+296 = Not individually documented
+297 = Not individually documented
+298 = Not individually documented
+299 = Not individually documented
+
+// ==========================================================
+// MOUNTED SKILLS AND GESTURES (300-326)
+// ==========================================================
+
+300 = Mounted spellcasting
+301 = Mounted spellcasting, variant 2
+302 = Mounted spellcasting, variant 3
+303 = Mounted spellcasting - repeated motion
+304 = Mounted spellcasting with raised hands
+305 = Mounted roar-like buff
+306 = Stiff mounted action - unidentified
+307 = Mounted forward pointing gesture
+308 = Mounted forward pointing with opposite hand
+309 = Mounted double forward pointing
+310 = Mounted advance signal gesture
+311 = Mounted backward right-hand swipe
+312 = Quick mounted roar-like buff
+313 = Mounted circular hand gesture
+314 = Mounted forward roar
+315 = Mounted right-hand buff-like motion
+316 = Mounted forward right-hand swipe - possible buff (?)
+317 = Mounted Obsidian-like buff - Grow Lancer (?)
+318 = Mounted forward two-handed spellcasting
+319 = Mounted forward left-hand lunge
+320 = Mounted roar-like buff
+321 = Mounted forward hand motion from overhead
+322 = Mounted roar-like buff variant
+323 = Mounted roar-like buff variant
+324 = Mounted roar-like buff variant
+325 = Mounted Obsidian-like buff - Grow Lancer, alternative variant (?)
+326 = Mounted two-handed overhead raise - possible buff (?)
+
+// ==========================================================
+// DAMAGE AND RECOVERY (327-334)
+// ==========================================================
+
+327 = Fall backward and recover - Alchemist (?)
+328 = Damage reaction - Alchemist
+329 = Fall backward and recover - Alchemist, variant 2 (?)
+330 = Damage reaction - Alchemist, variant 2
+331 = Fall backward and recover - Alchemist, variant 3 (?)
+332 = Damage reaction - Alchemist, variant 3
+333 = Repeated damage / recovery group - abbreviated in original notes
+334 = Repeated damage / recovery group - abbreviated in original notes
+
+// ==========================================================
+// MOUNTED DAMAGE REACTIONS (335-341)
+// ==========================================================
+
+335 = Mounted damage reaction
+336 = Mounted damage reaction - left hand free
+337 = Mounted damage reaction - right hand free
+338 = Mounted damage reaction variant
+339 = Mounted damage reaction variant
+340 = Mounted damage reaction - Alchemist
+341 = Mounted damage reaction variant
+
+// ==========================================================
+// DEATH ANIMATIONS (342-347)
+// ==========================================================
+
+342 = Fall forward and die
+343 = Fall forward, roll onto back and die
+344 = Fall forward and die - Alchemist
+345 = Fall forward and die - Alchemist, alternative variant
+346 = Fall backward and die
+347 = Kneel, then fall forward and die - Alchemist
+
+// ==========================================================
+// EMOTES (348-388)
+// ==========================================================
+
+348 = Polite bow emote - Alchemist
+349 = Reverence emote - Alchemist
+350 = Wave emote
+351 = High wave emote
+352 = Clapping emote
+353 = Clapping emote - female variant (?)
+354 = Cheer emote
+355 = One-handed cheer emote
+356 = Pointing emote
+357 = Pointing emote - female variant (?)
+358 = Beckon / follow emote
+359 = Two-handed beckon - female variant (?)
+360 = Two-handed negative gesture
+361 = Two-handed negative gesture - female variant (?)
+362 = Lament emote
+363 = Crying / lament emote - female variant (?)
+364 = Confused head-scratching emote
+365 = Tired / bored yawn emote (?)
+366 = Arms-crossed emote
+367 = Hands-on-hips emote - female counterpart to arms-crossed (?)
+368 = Raised-arm emote
+369 = Blow-kiss emote
+370 = Laugh emote
+371 = Laugh emote - female
+372 = Hand gesture toward opposite shoulder - yawn, disgust or threat (?)
+373 = Female counterpart to 372 - yawn (?)
+374 = Cold / sad / hurt gesture
+375 = Cold / sad / hurt gesture - female
+376 = Victory hand gesture
+377 = Victory hand gesture - female
+378 = Kneeling gesture - respect / defeat
+379 = Military-style salute
+380 = Arms-spread emote
+381 = Kneeling gesture - reverence
+382 = Celebratory emote
+383 = Forward hip-thrust emote (Hustle-like)
+384 = Beckoning / follow gesture
+385 = Look-around / searching emote
+386 = Extended cheer emote
+387 = Clap and cheer - female counterpart to 386 (?)
+388 = Dance emote
+
+// ==========================================================
+// ENVIRONMENTAL INTERACTIONS AND RESTING (389-403)
+// ==========================================================
+
+389 = Climbing / emerging from the ground
+390 = Male sitting, variant 0
+391 = Male sitting, variant 1
+392 = Female sitting (?)
+393 = Female sitting, variant 1
+394 = Female sitting, variant 2
+395 = Female sitting, variant 3
+396 = Female sitting, variant 4
+397 = Levitating rest - Noria-style
+398 = Levitating rest - Noria-style, female
+399 = Male leaning against wall
+400 = Female leaning against wall
+401 = Female leaning against wall, variant 2
+402 = Female leaning against wall, variant 3
+403 = Female leaning against wall, variant 4
+
+// ==========================================================
+// ADDITIONAL GESTURES AND MISCELLANEOUS ACTIONS (404-409)
+// ==========================================================
+
+404 = Dance-like motion with hands moving up and down in front (?)
+405 = Dance-like motion with arms swinging to the sides (?)
+406 = Happy jumping / cheering emote - female (?)
+407 = Spinning emote
+408 = Jump or levitation
+409 = Two-handed grab-and-throw motion
