@@ -345,6 +345,9 @@ Corrections and additional identifications are welcome.
 280-299 = Repetition of animations 276-279,
           following the same four-animation sequence.
 
+		  probably WebZen reserving animation slots
+
+
 // ==========================================================
 // MOUNTED SKILLS AND GESTURES (300-326)
 // ==========================================================
