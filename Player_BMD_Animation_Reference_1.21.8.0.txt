@@ -337,30 +337,13 @@ Corrections and additional identifications are welcome.
 // RANGED ATTACK VARIANTS (PARTIALLY DOCUMENTED) (276-299)
 // ==========================================================
 
-276 = Bow draw
-277 = Flying bow draw
-278 = Crossbow shooting
-279 = Flying crossbow shooting
-280 = Bow draw, variant 2 (?)
-281 = Flying bow draw, variant 2 (?)
-282 = Crossbow shooting, variant 2 (?)
-283 = Flying crossbow shooting, variant 2 (?)
-284 = Bow draw, variant 3 (?)
-285 = Flying bow draw, variant 3 (?)
-286 = Crossbow shooting, variant 3
-287 = Flying crossbow shooting, variant 3
-288 = Bow draw, additional variant
-289 = Flying bow draw, additional variant
-290 = Repeated ranged animation - abbreviated in original notes
-291 = Not individually documented
-292 = Not individually documented
-293 = Not individually documented
-294 = Not individually documented
-295 = Not individually documented
-296 = Not individually documented
-297 = Not individually documented
-298 = Not individually documented
-299 = Not individually documented
+276 = Bow attack
+277 = Bow attack (Flying)
+278 = Crossbow attack
+279 = Crossbow attack (Flying)
+
+280-299 = Repetition of animations 276-279,
+          following the same four-animation sequence.
 
 // ==========================================================
 // MOUNTED SKILLS AND GESTURES (300-326)
